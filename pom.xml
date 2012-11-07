@@ -164,8 +164,8 @@
       <url>file://${user.home}/.m2/deploy-site/gst-parent/${project.version}</url>
     </site>
     <repository>
-        <id>repo</id>
-        <url>https://raw.github.com/dolfdijkstra/mvn-repository/master/releases</url>
+       <id>repo</id>
+      <url>file://${user.home}/.m2/deploy-repository</url>
     </repository>
   </distributionManagement>
 </project>
