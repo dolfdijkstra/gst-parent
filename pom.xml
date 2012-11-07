@@ -161,11 +161,11 @@
   <distributionManagement>
     <site>
       <id>project-site</id>
-      <url>file://${user.home}/.m2/deploy-site</url>
+      <url>file://${user.home}/.m2/deploy-site/gst-parent/${project.version}</url>
     </site>
     <repository>
-      <id>maven-repository</id>
-      <url>file://${user.home}/.m2/deploy-repository</url>
+        <id>repo</id>
+        <url>https://raw.github.com/dolfdijkstra/mvn-repository/master/releases</url>
     </repository>
   </distributionManagement>
 </project>
