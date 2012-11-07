@@ -159,12 +159,12 @@
   </reporting>
   <distributionManagement>
     <site>
-      <id>github-project-site</id>
-      <url>gitsite:git@github.com/dolfdijkstra/gst-parent</url>
+      <id>project-site</id>
+      <url>file://${user.home}/.m2/deploy-site</url>
     </site>
     <repository>
       <id>maven-repository</id>
-      <url>file://${user.home}/.m2/deploy-repository/</url>
+      <url>file://${user.home}/.m2/deploy-repository</url>
     </repository>
   </distributionManagement>
 </project>
