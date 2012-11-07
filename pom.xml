@@ -4,7 +4,7 @@
   <groupId>com.fatwire.gst</groupId>
   <artifactId>gst-parent</artifactId>
   <packaging>pom</packaging>
-  <version>15-SNAPSHOT</version>
+  <version>11-SNAPSHOT</version>
   <name>GST: Parent pom</name>
   <url>http://github.com/dolfdijkstra/gst-parent</url>
   <inceptionYear>2010</inceptionYear>
